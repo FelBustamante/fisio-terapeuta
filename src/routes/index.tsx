@@ -39,7 +39,7 @@ function HomePage() {
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <a
-                href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20sess%C3%A3o"
+                href="https://wa.me/5512998818988?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20sess%C3%A3o"
                 className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3.5 text-sm text-accent-foreground hover:bg-accent/90 transition-all shadow-soft hover:shadow-warm"
               >
                 Agendar uma sessão <ArrowRight size={16} />
@@ -204,7 +204,7 @@ function HomePage() {
             mais delicado para você nesse momento.
           </p>
           <a
-            href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20sess%C3%A3o"
+            href="https://wa.me/5512998818988?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20sess%C3%A3o"
             className="mt-8 inline-flex items-center gap-2 rounded-full bg-accent px-7 py-4 text-sm text-accent-foreground hover:bg-accent/90 transition-colors shadow-warm"
           >
             Falar no WhatsApp <ArrowRight size={16} />

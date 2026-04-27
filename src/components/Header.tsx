@@ -40,7 +40,7 @@ export function Header() {
         </nav>
 
         <a
-          href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20sess%C3%A3o"
+          href="https://wa.me/5512998818988?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20sess%C3%A3o"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:inline-flex items-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm text-accent-foreground hover:bg-accent/90 transition-colors shadow-soft"
@@ -73,7 +73,7 @@ export function Header() {
               </Link>
             ))}
             <a
-              href="https://wa.me/5511999999999"
+              href="https://wa.me/5512998818988"
               className="mt-2 inline-flex justify-center rounded-full bg-accent px-5 py-3 text-sm text-accent-foreground"
             >
               Agendar pelo WhatsApp

@@ -35,15 +35,15 @@ export function Footer() {
             </li>
             <li className="flex items-center gap-2.5">
               <Phone size={16} className="text-accent" />
-              <a href="https://wa.me/5511999999999" className="hover:text-accent">(11) 99999-9999</a>
+              <a href="https://wa.me/5512998818988" className="hover:text-accent">(12) 99881-8988</a>
             </li>
             <li className="flex items-center gap-2.5">
               <Mail size={16} className="text-accent" />
-              <a href="mailto:contato@analuz.com" className="hover:text-accent">contato@analuz.com</a>
+              <a href="mailto:contato@camilapelegrini.com" className="hover:text-accent">contato@camilapelegrini.com</a>
             </li>
             <li className="flex items-center gap-2.5">
               <Instagram size={16} className="text-accent" />
-              <a href="https://instagram.com" className="hover:text-accent">@analuz.terapias</a>
+              <a href="https://instagram.com/dra.camilapelegrini" className="hover:text-accent" target="_blank" rel="noopener noreferrer">@dra.camilapelegrini</a>
             </li>
           </ul>
         </div>

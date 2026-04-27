@@ -34,7 +34,7 @@ function ContactPage() {
         <div className="grid md:grid-cols-2 gap-8">
           {/* WHATSAPP CARD - principal */}
           <a
-            href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20sess%C3%A3o"
+            href="https://wa.me/5512998818988?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20sess%C3%A3o"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative overflow-hidden rounded-3xl bg-accent text-accent-foreground p-10 md:p-12 shadow-warm hover:shadow-warm transition-all hover:-translate-y-1 grain"
@@ -46,7 +46,7 @@ function ContactPage() {
               Respondo pessoalmente, com atenção, geralmente em poucas horas.
             </p>
             <div className="mt-8 inline-flex items-center gap-2 rounded-full bg-accent-foreground/15 px-5 py-2.5 text-sm group-hover:bg-accent-foreground/25 transition-colors">
-              (11) 99999-9999
+              (12) 99881-8988
             </div>
           </a>
 
@@ -54,13 +54,13 @@ function ContactPage() {
             <h2 className="font-serif text-3xl">Outros canais</h2>
 
             <ContactRow icon={Phone} label="Telefone">
-              <a href="tel:+5511999999999" className="hover:text-accent">(11) 99999-9999</a>
+              <a href="tel:+5512998818988" className="hover:text-accent">(12) 99881-8988</a>
             </ContactRow>
             <ContactRow icon={Mail} label="E-mail">
-              <a href="mailto:contato@analuz.com" className="hover:text-accent">contato@analuz.com</a>
+              <a href="mailto:contato@camilapelegrini.com" className="hover:text-accent">contato@camilapelegrini.com</a>
             </ContactRow>
             <ContactRow icon={Instagram} label="Instagram">
-              <a href="https://instagram.com" className="hover:text-accent" target="_blank" rel="noopener noreferrer">@analuz.terapias</a>
+              <a href="https://instagram.com/dra.camilapelegrini" className="hover:text-accent" target="_blank" rel="noopener noreferrer">@dra.camilapelegrini</a>
             </ContactRow>
             <ContactRow icon={MapPin} label="Endereço">
               <span>Cruzeiro, SP</span>
