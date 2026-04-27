@@ -73,16 +73,29 @@ function ContactPage() {
       </Section>
 
       <Section className="pb-20">
-        <div className="rounded-3xl overflow-hidden border border-border/60 shadow-soft aspect-video md:aspect-16/8">
-          <iframe
-            title="Localização do consultório"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=-44.980%2C-22.585%2C-44.940%2C-22.555&layer=mapnik"
-            width="100%"
-            height="100%"
-            loading="lazy"
-            className="border-0"
-          />
-        </div>
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=Cruzeiro%2C%20SP"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative block rounded-3xl overflow-hidden border border-border/60 shadow-soft aspect-video md:aspect-16/8"
+        >
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.22),transparent_45%),linear-gradient(135deg,oklch(0.65_0.07_142),oklch(0.56_0.05_95))]" />
+          <div className="relative h-full w-full p-6 md:p-8 flex flex-col justify-between text-white">
+            <div className="inline-flex items-center gap-2 rounded-full bg-white/20 px-3 py-1.5 text-xs uppercase tracking-[0.18em] w-fit">
+              <MapPin size={14} />
+              Cruzeiro, SP
+            </div>
+            <div>
+              <h3 className="font-serif text-2xl md:text-3xl">Abrir localização no mapa</h3>
+              <p className="mt-2 text-sm text-white/90 max-w-md">
+                Toque para abrir diretamente no app de mapas do celular.
+              </p>
+              <span className="mt-4 inline-flex items-center justify-center rounded-full bg-white/20 px-5 py-2.5 text-sm group-hover:bg-white/30 transition-colors">
+                Abrir mapa
+              </span>
+            </div>
+          </div>
+        </a>
       </Section>
     </>
   );
