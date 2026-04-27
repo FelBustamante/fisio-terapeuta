@@ -20,7 +20,7 @@ export function Header() {
           <span className="grid place-items-center w-9 h-9 rounded-full bg-accent/10 border border-accent/20">
             <span className="block w-2 h-2 rounded-full bg-accent" />
           </span>
-          <span className="font-serif text-xl tracking-wide text-foreground">
+          <span className="font-serif text-2xl tracking-wide text-foreground">
             Camila <span className="italic text-accent">Pelegrini</span>
           </span>
         </Link>

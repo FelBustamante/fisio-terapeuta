@@ -3,6 +3,7 @@ import heroImg from "@/assets/hero-reiki.jpg";
 import portrait from "@/assets/portrait-ana.jpg";
 import reikiImg from "@/assets/service-reiki.jpg";
 import fisioImg from "@/assets/service-fisio.jpg";
+import acupunturaImg from "@/assets/service-acupuntura.jpg";
 import aromaImg from "@/assets/service-aroma.jpg";
 import ozonioImg from "@/assets/service-ozonioterapia.jpg";
 import { Section, Eyebrow } from "@/components/Section";
@@ -64,7 +65,7 @@ function HomePage() {
               </div>
               <div className="w-px h-10 bg-border" />
               <div>
-                <div className="font-serif text-2xl text-foreground">4</div>
+                <div className="font-serif text-2xl text-foreground">5</div>
                 <div>terapias integradas</div>
               </div>
             </div>
@@ -158,10 +159,11 @@ function HomePage() {
           </p>
         </div>
 
-        <div className="mt-14 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="mt-14 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
             { img: reikiImg, title: "Reiki", desc: "Harmonização energética para aliviar o estresse e restaurar o equilíbrio sutil." },
             { img: fisioImg, title: "Fisioterapia integrativa", desc: "Atendimento corporal com olhar holístico, técnicas manuais e escuta atenta." },
+            { img: acupunturaImg, title: "Acupuntura", desc: "Técnica milenar que estimula pontos energéticos para aliviar dores e restaurar o equilíbrio." },
             { img: aromaImg, title: "Aromaterapia", desc: "Óleos essenciais selecionados para acolher emoções e potencializar o cuidado." },
             { img: ozonioImg, title: "Ozonioterapia", desc: "Recurso terapêutico complementar para auxiliar na dor, inflamação e recuperação funcional." },
           ].map((s) => (

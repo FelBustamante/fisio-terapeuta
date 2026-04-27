@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import reikiImg from "@/assets/service-reiki.jpg";
 import fisioImg from "@/assets/service-fisio.jpg";
+import acupunturaImg from "@/assets/service-acupuntura.jpg";
 import aromaImg from "@/assets/service-aroma.jpg";
 import ozonioImg from "@/assets/service-ozonioterapia.jpg";
 import { Section, Eyebrow } from "@/components/Section";
@@ -10,9 +11,9 @@ export const Route = createFileRoute("/servicos")({
   head: () => ({
     meta: [
       { title: "Serviços — Reiki, Fisioterapia & Terapias Integrativas" },
-      { name: "description", content: "Reiki, fisioterapia integrativa, aromaterapia e ozonioterapia. Sessões individuais e pacotes personalizados." },
+      { name: "description", content: "Reiki, fisioterapia integrativa, acupuntura, aromaterapia e ozonioterapia. Sessões individuais e pacotes personalizados." },
       { property: "og:title", content: "Serviços de Camila Pelegrini" },
-      { property: "og:description", content: "Reiki, fisioterapia, aromaterapia e ozonioterapia para o seu equilíbrio." },
+      { property: "og:description", content: "Reiki, fisioterapia, acupuntura, aromaterapia e ozonioterapia para o seu equilíbrio." },
       { property: "og:image", content: reikiImg },
       { name: "twitter:image", content: reikiImg },
     ],
@@ -43,6 +44,18 @@ const services = [
       "Recuperação funcional",
       "Postura e consciência corporal",
       "Liberação de tensões profundas",
+    ],
+  },
+  {
+    img: acupunturaImg,
+    title: "Acupuntura",
+    duration: "50 min",
+    desc: "Técnica milenar da medicina tradicional chinesa que utiliza agulhas finas para estimular pontos específicos do corpo, restaurando o fluxo de energia e promovendo equilíbrio.",
+    benefits: [
+      "Alívio de dores agudas e crônicas",
+      "Redução de estresse e ansiedade",
+      "Melhora da qualidade do sono",
+      "Equilíbrio energético e emocional",
     ],
   },
   {
