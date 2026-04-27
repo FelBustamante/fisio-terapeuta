@@ -191,7 +191,7 @@ function ServicesPage() {
         </div>
 
         <p className="mt-8 text-center text-xs text-muted-foreground">
-          Valores referenciais. Atendimento presencial em São Paulo.
+          Valores referenciais. Atendimento presencial em Cruzeiro, SP.
         </p>
       </Section>
     </>

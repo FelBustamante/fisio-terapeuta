@@ -33,7 +33,7 @@ export const Route = createRootRoute({
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Camila Pelegrini — Fisioterapia & Reiki" },
-      { name: "description", content: "Fisioterapia integrativa e Reiki em São Paulo. Equilíbrio entre corpo, mente e energia com Camila Pelegrini." },
+      { name: "description", content: "Fisioterapia integrativa e Reiki em Cruzeiro, SP. Equilíbrio entre corpo, mente e energia com Camila Pelegrini." },
       { name: "author", content: "Camila Pelegrini" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
