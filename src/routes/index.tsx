@@ -197,7 +197,10 @@ function HomePage() {
       <Section className="py-20">
         <div className="relative overflow-hidden rounded-3xl bg-primary text-primary-foreground p-12 md:p-16 text-center grain">
           <div aria-hidden className="absolute -top-20 -right-20 w-72 h-72 rounded-full bg-accent/30 blur-3xl" />
-          <Eyebrow>Vamos começar</Eyebrow>
+          <span className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-accent-foreground/70">
+            <span className="block w-6 h-px bg-accent-foreground/40" />
+            Vamos começar
+          </span>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl text-balance max-w-2xl mx-auto">
             Permita-se um momento só seu.
           </h2>
