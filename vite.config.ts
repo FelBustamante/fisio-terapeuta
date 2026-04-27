@@ -11,7 +11,15 @@ export default defineConfig({
   plugins: [
     tsConfigPaths({ projects: ["./tsconfig.json"] }),
     tailwindcss(),
-    tanstackStart(),
+    tanstackStart({
+      pages: [
+        { path: "/", prerender: { enabled: true } },
+        { path: "/sobre", prerender: { enabled: true } },
+        { path: "/servicos", prerender: { enabled: true } },
+        { path: "/depoimentos", prerender: { enabled: true } },
+        { path: "/contato", prerender: { enabled: true } },
+      ],
+    }),
     react(),
   ],
   resolve: {
