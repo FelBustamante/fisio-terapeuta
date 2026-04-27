@@ -37,7 +37,7 @@ function ContactPage() {
             href="https://wa.me/5512998818988?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20sess%C3%A3o"
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative overflow-hidden rounded-3xl bg-accent text-accent-foreground p-10 md:p-12 shadow-warm hover:shadow-warm transition-all hover:-translate-y-1 grain"
+            className="group relative overflow-hidden rounded-3xl bg-accent text-accent-foreground p-7 md:p-12 shadow-warm hover:shadow-warm transition-all hover:-translate-y-1 grain"
           >
             <div aria-hidden className="absolute -bottom-16 -right-16 w-64 h-64 rounded-full bg-accent-foreground/10 blur-2xl" />
             <MessageCircle size={36} />
@@ -50,14 +50,14 @@ function ContactPage() {
             </div>
           </a>
 
-          <div className="rounded-3xl bg-card border border-border/60 p-10 md:p-12 space-y-6">
+          <div className="rounded-3xl bg-card border border-border/60 p-7 md:p-12 space-y-6">
             <h2 className="font-serif text-3xl">Outros canais</h2>
 
             <ContactRow icon={Phone} label="Telefone">
               <a href="tel:+5512998818988" className="hover:text-accent">(12) 99881-8988</a>
             </ContactRow>
             <ContactRow icon={Mail} label="E-mail">
-              <a href="mailto:contato@camilapelegrini.com" className="hover:text-accent">contato@camilapelegrini.com</a>
+              <a href="mailto:contato@camilapelegrini.com" className="hover:text-accent break-all">contato@camilapelegrini.com</a>
             </ContactRow>
             <ContactRow icon={Instagram} label="Instagram">
               <a href="https://instagram.com/dra.camilapelegrini" className="hover:text-accent" target="_blank" rel="noopener noreferrer">@dra.camilapelegrini</a>
@@ -73,7 +73,7 @@ function ContactPage() {
       </Section>
 
       <Section className="pb-20">
-        <div className="rounded-3xl overflow-hidden border border-border/60 shadow-soft aspect-16/8">
+        <div className="rounded-3xl overflow-hidden border border-border/60 shadow-soft aspect-video md:aspect-16/8">
           <iframe
             title="Localização do consultório"
             src="https://www.openstreetmap.org/export/embed.html?bbox=-44.980%2C-22.585%2C-44.940%2C-22.555&layer=mapnik"

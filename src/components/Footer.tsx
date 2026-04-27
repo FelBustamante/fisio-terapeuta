@@ -37,9 +37,9 @@ export function Footer() {
               <Phone size={16} className="text-accent" />
               <a href="https://wa.me/5512998818988" className="hover:text-accent">(12) 99881-8988</a>
             </li>
-            <li className="flex items-center gap-2.5">
-              <Mail size={16} className="text-accent" />
-              <a href="mailto:contato@camilapelegrini.com" className="hover:text-accent">contato@camilapelegrini.com</a>
+            <li className="flex items-start gap-2.5">
+              <Mail size={16} className="text-accent mt-0.5 shrink-0" />
+              <a href="mailto:contato@camilapelegrini.com" className="hover:text-accent break-all">contato@camilapelegrini.com</a>
             </li>
             <li className="flex items-center gap-2.5">
               <Instagram size={16} className="text-accent" />

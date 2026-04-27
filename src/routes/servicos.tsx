@@ -170,7 +170,7 @@ function ServicesPage() {
               key={p.name}
               className={`rounded-2xl p-8 border transition-all ${
                 p.featured
-                  ? "bg-primary text-primary-foreground border-primary shadow-warm scale-[1.02]"
+                  ? "bg-primary text-primary-foreground border-primary shadow-warm md:scale-[1.02]"
                   : "bg-card border-border/60 shadow-soft hover:shadow-warm"
               }`}
             >
