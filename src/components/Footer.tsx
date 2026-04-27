@@ -31,7 +31,7 @@ export function Footer() {
           <ul className="space-y-3 text-sm text-muted-foreground">
             <li className="flex items-start gap-2.5">
               <MapPin size={16} className="mt-0.5 text-accent" />
-              <span>Rua das Flores, 123 — São Paulo, SP</span>
+              <span>Cruzeiro, SP</span>
             </li>
             <li className="flex items-center gap-2.5">
               <Phone size={16} className="text-accent" />

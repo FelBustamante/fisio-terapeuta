@@ -6,7 +6,7 @@ export const Route = createFileRoute("/contato")({
   head: () => ({
     meta: [
       { title: "Contato — Agende sua sessão com Camila Pelegrini" },
-      { name: "description", content: "Agende sua sessão de Reiki ou fisioterapia integrativa em São Paulo. Atendimento pelo WhatsApp." },
+      { name: "description", content: "Agende sua sessão de Reiki ou fisioterapia integrativa em Cruzeiro, SP. Atendimento pelo WhatsApp." },
       { property: "og:title", content: "Contato — Camila Pelegrini" },
       { property: "og:description", content: "Vamos conversar? Estou pronta para te receber." },
     ],
@@ -63,7 +63,7 @@ function ContactPage() {
               <a href="https://instagram.com" className="hover:text-accent" target="_blank" rel="noopener noreferrer">@analuz.terapias</a>
             </ContactRow>
             <ContactRow icon={MapPin} label="Endereço">
-              <span>Rua das Flores, 123 — Sala 4<br />Vila Madalena, São Paulo, SP</span>
+              <span>Cruzeiro, SP</span>
             </ContactRow>
             <ContactRow icon={Clock} label="Atendimento">
               <span>Segunda a sexta — 9h às 19h<br />Sábado — 9h às 13h</span>
@@ -76,7 +76,7 @@ function ContactPage() {
         <div className="rounded-3xl overflow-hidden border border-border/60 shadow-soft aspect-16/8">
           <iframe
             title="Localização do consultório"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=-46.696%2C-23.555%2C-46.676%2C-23.545&layer=mapnik"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-44.980%2C-22.585%2C-44.940%2C-22.555&layer=mapnik"
             width="100%"
             height="100%"
             loading="lazy"
