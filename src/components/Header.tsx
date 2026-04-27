@@ -16,12 +16,9 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 backdrop-blur-md bg-background/80 border-b border-border/50">
       <div className="mx-auto max-w-6xl px-6 h-20 flex items-center justify-between">
-        <Link to="/" className="group flex items-center gap-2.5">
-          <span className="grid place-items-center w-9 h-9 rounded-full bg-accent/10 border border-accent/20">
-            <span className="block w-2 h-2 rounded-full bg-accent" />
-          </span>
-          <span className="font-serif text-lg md:text-2xl tracking-wide text-foreground">
-            Camila <span className="italic text-accent">Pelegrini</span>
+        <Link to="/" className="group flex items-center">
+          <span className="font-serif font-bold text-2xl md:text-3xl tracking-wide text-black">
+            Camila <span className="text-black">Pelegrini</span>
           </span>
         </Link>
 
@@ -30,7 +27,7 @@ export function Header() {
             <Link
               key={l.to}
               to={l.to}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm font-medium text-foreground hover:text-foreground transition-colors"
               activeProps={{ className: "text-accent font-medium" }}
               activeOptions={{ exact: l.to === "/" }}
             >
@@ -65,7 +62,7 @@ export function Header() {
                 key={l.to}
                 to={l.to}
                 onClick={() => setOpen(false)}
-                className="text-base text-foreground/80"
+                className="text-base font-medium text-foreground"
                 activeProps={{ className: "text-accent font-medium" }}
                 activeOptions={{ exact: l.to === "/" }}
               >

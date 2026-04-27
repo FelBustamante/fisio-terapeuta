@@ -36,10 +36,6 @@ export const Route = createRootRoute({
       { name: "description", content: "Fisioterapia integrativa e Reiki em Cruzeiro, SP. Equilíbrio entre corpo, mente e energia com Camila Pelegrini." },
       { name: "author", content: "Camila Pelegrini" },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "Camila Pelegrini" },
-      { property: "og:locale", content: "pt_BR" },
-      { property: "og:image", content: "https://fisio-terapeuta.vercel.app/camila-preview.jpg" },
-      { name: "twitter:image", content: "https://fisio-terapeuta.vercel.app/camila-preview.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
