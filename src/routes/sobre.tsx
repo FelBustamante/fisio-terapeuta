@@ -6,9 +6,9 @@ import { ArrowRight } from "lucide-react";
 export const Route = createFileRoute("/sobre")({
   head: () => ({
     meta: [
-      { title: "Sobre Ana Luz — Fisioterapeuta & Mestra em Reiki" },
-      { name: "description", content: "Conheça a trajetória, a formação e a filosofia de cuidado de Ana Luz." },
-      { property: "og:title", content: "Sobre Ana Luz" },
+      { title: "Sobre Camila Pelegrini — Fisioterapeuta & Mestra em Reiki" },
+      { name: "description", content: "Conheça a trajetória, a formação e a filosofia de cuidado de Camila Pelegrini." },
+      { property: "og:title", content: "Sobre Camila Pelegrini" },
       { property: "og:description", content: "Fisioterapia, Reiki e terapias integrativas com presença e sensibilidade." },
       { property: "og:image", content: portrait },
       { name: "twitter:image", content: portrait },
@@ -35,17 +35,17 @@ function AboutPage() {
             <div className="absolute -inset-3 bg-accent/10 rounded-[2rem] -rotate-2" />
             <img
               src={portrait}
-              alt="Ana Luz, fisioterapeuta e terapeuta Reiki"
+              alt="Camila Pelegrini, fisioterapeuta e terapeuta Reiki"
               width={1024}
               height={1280}
               loading="lazy"
-              className="relative rounded-[1.75rem] shadow-warm object-cover w-full aspect-[4/5]"
+              className="relative rounded-[1.75rem] shadow-warm object-cover w-full aspect-4/5"
             />
           </div>
 
           <div className="md:col-span-3 space-y-6 text-muted-foreground leading-relaxed">
             <p className="text-lg text-foreground/80">
-              Sou Ana Luz, fisioterapeuta formada pela Universidade Federal,
+              Sou Camila Pelegrini, fisioterapeuta formada pela Universidade Federal,
               com mais de dez anos dedicados ao cuidado do corpo. Há sete anos,
               o Reiki entrou na minha vida — e mudou para sempre o modo como
               entendo a saúde.

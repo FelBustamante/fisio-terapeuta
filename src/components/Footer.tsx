@@ -7,7 +7,7 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-14 grid gap-10 md:grid-cols-3">
         <div>
           <div className="font-serif text-2xl text-foreground">
-            Ana <span className="italic text-accent">Luz</span>
+            Camila <span className="italic text-accent">Pelegrini</span>
           </div>
           <p className="mt-3 text-sm text-muted-foreground max-w-xs leading-relaxed">
             Fisioterapia integrativa e Reiki para o equilíbrio entre corpo,
@@ -50,7 +50,7 @@ export function Footer() {
       </div>
       <div className="border-t border-border/60">
         <div className="mx-auto max-w-6xl px-6 py-5 text-xs text-muted-foreground flex flex-col sm:flex-row justify-between gap-2">
-          <span>© {new Date().getFullYear()} Ana Luz Terapias Integrativas.</span>
+          <span>© {new Date().getFullYear()} Camila Pelegrini Terapias Integrativas.</span>
           <span>Feito com cuidado e intenção.</span>
         </div>
       </div>

@@ -5,9 +5,9 @@ import { Clock, Instagram, Mail, MapPin, MessageCircle, Phone } from "lucide-rea
 export const Route = createFileRoute("/contato")({
   head: () => ({
     meta: [
-      { title: "Contato — Agende sua sessão com Ana Luz" },
+      { title: "Contato — Agende sua sessão com Camila Pelegrini" },
       { name: "description", content: "Agende sua sessão de Reiki ou fisioterapia integrativa em São Paulo. Atendimento pelo WhatsApp." },
-      { property: "og:title", content: "Contato — Ana Luz" },
+      { property: "og:title", content: "Contato — Camila Pelegrini" },
       { property: "og:description", content: "Vamos conversar? Estou pronta para te receber." },
     ],
   }),
@@ -73,7 +73,7 @@ function ContactPage() {
       </Section>
 
       <Section className="pb-20">
-        <div className="rounded-3xl overflow-hidden border border-border/60 shadow-soft aspect-[16/8]">
+        <div className="rounded-3xl overflow-hidden border border-border/60 shadow-soft aspect-16/8">
           <iframe
             title="Localização do consultório"
             src="https://www.openstreetmap.org/export/embed.html?bbox=-46.696%2C-23.555%2C-46.676%2C-23.545&layer=mapnik"

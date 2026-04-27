@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import reikiImg from "@/assets/service-reiki.jpg";
 import fisioImg from "@/assets/service-fisio.jpg";
 import aromaImg from "@/assets/service-aroma.jpg";
+import ozonioImg from "@/assets/service-ozonioterapia.jpg";
 import { Section, Eyebrow } from "@/components/Section";
 import { ArrowRight, Check } from "lucide-react";
 
@@ -9,9 +10,9 @@ export const Route = createFileRoute("/servicos")({
   head: () => ({
     meta: [
       { title: "Serviços — Reiki, Fisioterapia & Terapias Integrativas" },
-      { name: "description", content: "Reiki, fisioterapia integrativa, aromaterapia e massoterapia. Sessões individuais e pacotes personalizados." },
-      { property: "og:title", content: "Serviços de Ana Luz" },
-      { property: "og:description", content: "Reiki, fisioterapia e terapias complementares para o seu equilíbrio." },
+      { name: "description", content: "Reiki, fisioterapia integrativa, aromaterapia e ozonioterapia. Sessões individuais e pacotes personalizados." },
+      { property: "og:title", content: "Serviços de Camila Pelegrini" },
+      { property: "og:description", content: "Reiki, fisioterapia, aromaterapia e ozonioterapia para o seu equilíbrio." },
       { property: "og:image", content: reikiImg },
       { name: "twitter:image", content: reikiImg },
     ],
@@ -54,6 +55,18 @@ const services = [
       "Relaxamento profundo",
       "Combinada a outras terapias",
       "Blend personalizado",
+    ],
+  },
+  {
+    img: ozonioImg,
+    title: "Ozonioterapia",
+    duration: "45 min",
+    desc: "Aplicação terapêutica de ozônio medicinal como recurso complementar para modular inflamação, auxiliar na dor e favorecer recuperação tecidual.",
+    benefits: [
+      "Auxílio no controle de processos inflamatórios",
+      "Suporte complementar para dores musculares e articulares",
+      "Apoio à recuperação funcional",
+      "Plano individual conforme avaliação",
     ],
   },
 ];
@@ -107,7 +120,7 @@ function ServicesPage() {
                 width={1024}
                 height={1024}
                 loading="lazy"
-                className="relative rounded-[1.75rem] object-cover w-full aspect-[4/3] shadow-soft"
+                className="relative rounded-[1.75rem] object-cover w-full aspect-4/3 shadow-soft"
               />
             </div>
             <div>

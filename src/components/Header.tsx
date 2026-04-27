@@ -21,7 +21,7 @@ export function Header() {
             <span className="block w-2 h-2 rounded-full bg-accent" />
           </span>
           <span className="font-serif text-xl tracking-wide text-foreground">
-            Ana <span className="italic text-accent">Luz</span>
+            Camila <span className="italic text-accent">Pelegrini</span>
           </span>
         </Link>
 

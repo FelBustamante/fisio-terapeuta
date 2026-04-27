@@ -32,9 +32,9 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Ana Luz — Fisioterapia & Reiki" },
-      { name: "description", content: "Fisioterapia integrativa e Reiki em São Paulo. Equilíbrio entre corpo, mente e energia com Ana Luz." },
-      { name: "author", content: "Ana Luz" },
+      { title: "Camila Pelegrini — Fisioterapia & Reiki" },
+      { name: "description", content: "Fisioterapia integrativa e Reiki em São Paulo. Equilíbrio entre corpo, mente e energia com Camila Pelegrini." },
+      { name: "author", content: "Camila Pelegrini" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

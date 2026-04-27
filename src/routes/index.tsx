@@ -4,16 +4,17 @@ import portrait from "@/assets/portrait-ana.jpg";
 import reikiImg from "@/assets/service-reiki.jpg";
 import fisioImg from "@/assets/service-fisio.jpg";
 import aromaImg from "@/assets/service-aroma.jpg";
+import ozonioImg from "@/assets/service-ozonioterapia.jpg";
 import { Section, Eyebrow } from "@/components/Section";
 import { ArrowRight, Heart, Leaf, Sparkles } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Ana Luz — Fisioterapia integrativa & Reiki" },
+      { title: "Camila Pelegrini — Fisioterapia integrativa & Reiki" },
       { name: "description", content: "Cuidado terapêutico que une fisioterapia, Reiki e terapias naturais para devolver leveza ao corpo e à mente." },
-      { property: "og:title", content: "Ana Luz — Fisioterapia integrativa & Reiki" },
-      { property: "og:description", content: "Equilíbrio entre corpo, mente e energia com Ana Luz." },
+      { property: "og:title", content: "Camila Pelegrini — Fisioterapia integrativa & Reiki" },
+      { property: "og:description", content: "Equilíbrio entre corpo, mente e energia com Camila Pelegrini." },
       { property: "og:image", content: heroImg },
       { name: "twitter:image", content: heroImg },
     ],
@@ -63,7 +64,7 @@ function HomePage() {
               </div>
               <div className="w-px h-10 bg-border" />
               <div>
-                <div className="font-serif text-2xl text-foreground">3</div>
+                <div className="font-serif text-2xl text-foreground">4</div>
                 <div>terapias integradas</div>
               </div>
             </div>
@@ -77,7 +78,7 @@ function HomePage() {
               alt="Espaço de cuidado: mesa de tratamento com toalhas, eucalipto e velas"
               width={1920}
               height={1080}
-              className="relative rounded-[1.75rem] shadow-warm object-cover w-full aspect-[4/3] grain"
+              className="relative rounded-[1.75rem] shadow-warm object-cover w-full aspect-4/3 grain"
             />
           </div>
         </div>
@@ -113,15 +114,15 @@ function HomePage() {
             <div className="absolute -inset-3 bg-primary/10 rounded-[2rem] -rotate-2" />
             <img
               src={portrait}
-              alt="Retrato de Ana Luz, fisioterapeuta e terapeuta Reiki"
+              alt="Retrato de Camila Pelegrini, fisioterapeuta e terapeuta Reiki"
               width={1024}
               height={1280}
               loading="lazy"
-              className="relative rounded-[1.75rem] shadow-soft object-cover w-full aspect-[4/5]"
+              className="relative rounded-[1.75rem] shadow-soft object-cover w-full aspect-4/5"
             />
           </div>
           <div>
-            <Eyebrow>Sobre Ana</Eyebrow>
+            <Eyebrow>Sobre Camila</Eyebrow>
             <h2 className="mt-5 font-serif text-4xl md:text-5xl text-balance">
               Uma jornada de <em className="text-accent">presença</em> e cura.
             </h2>
@@ -157,14 +158,15 @@ function HomePage() {
           </p>
         </div>
 
-        <div className="mt-14 grid md:grid-cols-3 gap-6">
+        <div className="mt-14 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
             { img: reikiImg, title: "Reiki", desc: "Harmonização energética para aliviar o estresse e restaurar o equilíbrio sutil." },
             { img: fisioImg, title: "Fisioterapia integrativa", desc: "Atendimento corporal com olhar holístico, técnicas manuais e escuta atenta." },
             { img: aromaImg, title: "Aromaterapia", desc: "Óleos essenciais selecionados para acolher emoções e potencializar o cuidado." },
+            { img: ozonioImg, title: "Ozonioterapia", desc: "Recurso terapêutico complementar para auxiliar na dor, inflamação e recuperação funcional." },
           ].map((s) => (
             <article key={s.title} className="group rounded-2xl overflow-hidden bg-card border border-border/60 shadow-soft hover:shadow-warm transition-all">
-              <div className="aspect-[4/3] overflow-hidden">
+              <div className="aspect-4/3 overflow-hidden">
                 <img
                   src={s.img}
                   alt={s.title}

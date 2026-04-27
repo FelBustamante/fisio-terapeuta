@@ -6,8 +6,8 @@ export const Route = createFileRoute("/depoimentos")({
   head: () => ({
     meta: [
       { title: "Depoimentos — Quem cuidou conta a história" },
-      { name: "description", content: "Histórias reais de quem encontrou alívio e equilíbrio com Ana Luz através do Reiki e da fisioterapia integrativa." },
-      { property: "og:title", content: "Depoimentos — Ana Luz" },
+      { name: "description", content: "Histórias reais de quem encontrou alívio e equilíbrio com Camila Pelegrini através do Reiki e da fisioterapia integrativa." },
+      { property: "og:title", content: "Depoimentos — Camila Pelegrini" },
       { property: "og:description", content: "Relatos de quem se sentiu acolhido e cuidado." },
     ],
   }),
@@ -18,17 +18,17 @@ const testimonials = [
   {
     name: "Mariana S.",
     role: "Designer, 34 anos",
-    text: "Cheguei à Ana com dores no pescoço que pareciam não ter solução. Em poucas sessões, encontrei alívio físico e uma calma que eu não sabia que precisava.",
+    text: "Cheguei à Camila com dores no pescoço que pareciam não ter solução. Em poucas sessões, encontrei alívio físico e uma calma que eu não sabia que precisava.",
   },
   {
     name: "Rafael T.",
     role: "Engenheiro, 41 anos",
-    text: "O Reiki com a Ana foi uma porta que se abriu. Saí de cada sessão mais leve, dormindo melhor e mais conectado comigo mesmo.",
+    text: "O Reiki com a Camila foi uma porta que se abriu. Saí de cada sessão mais leve, dormindo melhor e mais conectado comigo mesmo.",
   },
   {
     name: "Beatriz L.",
     role: "Professora, 52 anos",
-    text: "Mais que tratamento, é cuidado. Ana escuta, percebe, acolhe. Recomendo de coração para quem busca um caminho mais gentil.",
+    text: "Mais que tratamento, é cuidado. Camila escuta, percebe, acolhe. Recomendo de coração para quem busca um caminho mais gentil.",
   },
   {
     name: "Camila R.",
@@ -43,7 +43,7 @@ const testimonials = [
   {
     name: "Júlia A.",
     role: "Estudante, 26 anos",
-    text: "Em momentos de muita ansiedade, as sessões com a Ana foram um respiro. Voltei a confiar no meu próprio ritmo.",
+    text: "Em momentos de muita ansiedade, as sessões com a Camila foram um respiro. Voltei a confiar no meu próprio ritmo.",
   },
 ];
 
