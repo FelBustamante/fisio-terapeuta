@@ -4,7 +4,10 @@ import tailwindcss from "@tailwindcss/vite";
 import tsConfigPaths from "vite-tsconfig-paths";
 import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 
+const isGithubPages = process.env.GITHUB_PAGES === "true";
+
 export default defineConfig({
+  base: isGithubPages ? "/fisio-terapeuta/" : "/",
   plugins: [
     tsConfigPaths({ projects: ["./tsconfig.json"] }),
     tailwindcss(),
