@@ -76,7 +76,7 @@ function ContactPage() {
         <div className="rounded-3xl overflow-hidden border border-border/60 shadow-soft aspect-video md:aspect-16/8">
           <iframe
             title="Localização do consultório"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=-44.980%2C-22.585%2C-44.940%2C-22.555&layer=mapnik"
+            src="https://maps.google.com/maps?q=Cruzeiro%2C%20SP&z=13&output=embed"
             width="100%"
             height="100%"
             loading="lazy"
